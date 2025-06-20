@@ -18,4 +18,4 @@ eventEmitter.on('play', (type)=>{
     console.log("i am playing "+type);
 })
 
-eventEmitter.emit('play','cricket');
+eventEmitter.emit('play','cricket123');

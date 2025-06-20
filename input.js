@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-//console.log(process.argv[2])
+console.log(process.argv[2]);
 
 const action = process.argv[2];
 const filename = process.argv[3];

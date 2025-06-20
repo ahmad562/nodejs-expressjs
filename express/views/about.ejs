@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+<body>
+    <%- include('common/navbar.js') %>
+    <h1>About</h1>
+    <h2>Welcome <%= userInfo.name %></h2>
+    <h5>Age: <%= userInfo.id %></h5>
+    <h3>Skills:</h3>
+        <% userInfo.skills.forEach((item) =>{ %>
+            <li><%= item %></li>
+        
+        <% }) %>
+</body>
+</html>
